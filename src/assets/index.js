@@ -15,6 +15,7 @@ import tailwind from "./tech/tailwind.png";
 
 
 import omnifood from "./omnifood.gif";
+import udemy from "./udemy.gif";
 import ubereat from "./ubereat.gif";
 import fitclub from "./fitclub.gif";
 import destination from "./destination.gif";
@@ -26,6 +27,7 @@ import linkedin from "./linkedin.png";
 import twitter from "./twitter.png";
 
 import tt from "./tt.svg";
+import jj from "./jj.png";
 import ttz from "./ttz.svg";
 import szz from "./szz.svg";
 
@@ -45,6 +47,7 @@ export {
   omnifood,
   ubereat,
   fitclub,
+  udemy,
   destination,
   book,
   bharatestate,
@@ -53,6 +56,7 @@ export {
   twitter,
 
   tt,
+  jj,
   ttz,
   szz,
 };

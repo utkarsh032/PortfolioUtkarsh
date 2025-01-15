@@ -7,7 +7,7 @@ import {
   nodejs,
   mongodb,
   omnifood,
-  ubereat,
+  udemy,
   destination,
   book,
   bharatestate,
@@ -65,12 +65,12 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
     name: "React JS",
     icon: reactjs,
+  },
+  {
+    name: "Tailwind CSS",
+    icon: tailwind,
   },
   {
     name: "Node JS",
@@ -107,104 +107,104 @@ const projects = [
       "your premier destination for convenient and delicious food ordering. Designed for the modern food  Omnifood seamlessly connects you delights, right at your fingertips",
     tags: [
       {
-        name: "react",
+        name: "HTML",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "CSS",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "JavaScript",
         color: "pink-text-gradient",
       },
     ],
     image: omnifood,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "ubereat",
-    description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: ubereat,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/utkarsh032/omnifood",
   },
   {
     name: "destination",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Destination is a modern travel app designed to simplify hotel bookings and trip planning for travelers. Built with React and SCSS, it offers a responsive and user-friendly interface. Explore and organize your journeys effortlessly with seamless integration of REST APIs.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "scss",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "restapi",
         color: "pink-text-gradient",
       },
     ],
     image: destination,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/utkarsh032/destination-app-",
   },
   {
-    name: "book",
+    name: "Udemy-Clone",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "It is an online learning platform that mimics the core features of Udemy. It includes a video player for course content, detailed course data, and user authentication with email validation. Additional features like Udemy Business and course posting enhance the platform, offering a comprehensive learning and teaching experience.",
     tags: [
       {
-        name: "nextjs",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "tailwind",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "mongoDB",
         color: "pink-text-gradient",
       },
     ],
-    image: book,
-    source_code_link: "https://github.com/",
+    image: udemy,
+    source_code_link: "https://github.com/utkarsh032/Udemy/tree/main/client",
   },
   {
-    name: "bharatestate",
+    name: "bharate-state",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Bharat-Estate is a modern real estate platform for buying, selling, and renting properties in India. It features secure user authentication, real-time updates, and a responsive design for a seamless experience. Powered by a robust backend, it ensures efficiency and scalability for property management.",
     tags: [
       {
-        name: "nextjs",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "node",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "mongoose",
         color: "pink-text-gradient",
       },
     ],
     image: bharatestate,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/utkarsh032/Bharat-Estate",
+  },
+  {
+    name: "book",
+    description:
+      "The Book Store App is a comprehensive platform designed to enhance the book-buying and selling experience. This application offers features such as browsing best-seller books, managing seller accounts, accessing promotional offers, and engaging with blog content.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "MongoDB",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: book,
+    source_code_link: "https://github.com/utkarsh032/book-store-app",
   },
 ];
 
